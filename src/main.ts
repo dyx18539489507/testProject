@@ -3,7 +3,8 @@ import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
 import { AppModule } from './app/app.module';
 import { environment } from './environments/environment';
-
+// import '../node_modules/ccore-js/es6/reflect';
+// import 'core-js/es7/reflect';
 if (environment.production) {
   enableProdMode();
 }
